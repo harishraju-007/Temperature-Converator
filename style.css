@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+}
+div{
+    
+    max-width: 350px;
+    background-color: grey;
+    text-align:center;
+    margin:10px;
+    padding:10px;
+    border-radius:10px;
+    box-shadow:5px 5px 10px silver;
+}
+body{
+    background-color: black;
+    display:flex;
+    justify-content:center;
+}
+label{
+    font-size:2em;
+}
+input{
+    margin-top:20px;
+    margin-bottom:20px;
+    padding:10px;
+    text-align:center;
+    font-size:1em;
+}
+button{
+    padding:10px;
+    border-radius:10px;
+    background-color: red;
+    border:none;
+    cursor:pointer;
+}
+button:hover{
+    background-color: rgb(243, 108, 108);
+}
+p{
+    font-size:2em;
+}
+#head{
+    color:rgb(13, 13, 14);
+    font-weight:bold;
+}
